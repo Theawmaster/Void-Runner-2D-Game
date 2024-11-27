@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4288571274697067771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1332524969270164847}
+  - component: {fileID: 6644629696035609705}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1332524969270164847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288571274697067771}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.06, y: -3.979, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6644629696035609705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288571274697067771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f8dfa5ff09c45cba19b88ea29230d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePrefabs:
+  - {fileID: 7450879092863223952, guid: 6a9bc020233d8497ba4cfa8cb8cc4505, type: 3}
+  - {fileID: 3755958552278856068, guid: 64e3b2091fc6145cfb525c678136ecdf, type: 3}
+  - {fileID: 7384687405804903064, guid: 1ecbfcb232e9e4a048c8d78adfed55e1, type: 3}
+  - {fileID: 7431587640078271562, guid: f4ec4fd8de6164a30be6eecaf4d89f06, type: 3}
+  - {fileID: 7513526641320788379, guid: 48606a74238b44703a336d9a293fd6ed, type: 3}
+  - {fileID: 3442682749916617938, guid: 11f38523ee703415a97b46277599dbbd, type: 3}
+  obstacleParent: {fileID: 0}
+  obstacleSpawnTime: 3
+  obstacleSpawnTimeFactor: 0.1
+  obstacleSpeed: 4
+  obstacleSpeedFactor: 0.2
